@@ -25,10 +25,10 @@ The Support group can be reached out to at [MetaButler](https://t.me/MetaProject
 - *Fill in sqlalchemy.url var (L#55) with the same value as SQLALCHEMY_DATABASE_URI from config.ini*
 - `pip3 install -U -r requirements.txt`
 - *The following step is important, it introduces a new column to blacklist table:*
+  run following command  inside docker  and change some value in config.ini file.
 - `alembic upgrade head`
 - *And finally* `python3 -m MetaButler`
 
-*Enjoy!*
 
 # How can I obtain `bot_token`?
 
@@ -63,7 +63,7 @@ In the case of postgres, this is how you would set up a the database on a debian
 
 - create a new database user(change YOUR_USER appropriately):
 
-`createuser -P -s -e YOUR_USER`
+`createuser -P -s -e YOUR_USER` 
 
 This will be followed by you needing to input your password.
 
@@ -94,3 +94,11 @@ The bot is based of on the original work done by
  - [Dank-del](https://github.com/Dank-del)
  - [SoapDev](https://github.com/SoapDev2018)
  - And many more that we couldn't list it here!
+
+Steps for running application: 
+
+1. Create Databse
+2. Create table blacklist
+3. Create table permissions
+4. Run Docker compose up
+Enjoi !!!!
