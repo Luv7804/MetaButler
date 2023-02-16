@@ -87,6 +87,10 @@ You should now be able to build your database URI. This will be:
 Replace sqldbtype with whichever db youre using(eg postgres, mysql, sqllite, etc)
 repeat for your username, password, hostname(localhost?), port(5432?), and db name.
 
+Steps for generating telegram bot:
+1. Find telegram bot named "@botfarther", he will help you with creating and managing your bot.
+2. To create a new bot type “/newbot” or click on it.
+3. Congratulations! You've just created your Telegram bot.
 
 # Steps for running application: 
 
