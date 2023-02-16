@@ -87,6 +87,15 @@ You should now be able to build your database URI. This will be:
 Replace sqldbtype with whichever db youre using(eg postgres, mysql, sqllite, etc)
 repeat for your username, password, hostname(localhost?), port(5432?), and db name.
 
+
+# Steps for running application: 
+
+1. Create Databse
+2. Create table blacklist
+3. Create table permissions
+4. Run Docker compose up
+Enjoi !!!!
+
 ## Credits
 The bot is based of on the original work done by
  - [PaulSonOfLars](https://github.com/PaulSonOfLars)
@@ -94,11 +103,3 @@ The bot is based of on the original work done by
  - [Dank-del](https://github.com/Dank-del)
  - [SoapDev](https://github.com/SoapDev2018)
  - And many more that we couldn't list it here!
-
-Steps for running application: 
-
-1. Create Databse
-2. Create table blacklist
-3. Create table permissions
-4. Run Docker compose up
-Enjoi !!!!
